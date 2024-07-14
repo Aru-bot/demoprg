@@ -1,0 +1,24 @@
+.PARENT > div{
+ background-color: darkgreen;
+ width: 120px;
+ font-size: 60px;
+ margin:10px;
+ /*margin-left: 400px;*/
+ text-align: center;
+ line-height: 100px;
+}
+.PARENT{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-content:flex-end;
+    align-items:stretch;
+    align-self: center;
+}
+#five{
+    flex-grow:200;
+}
+#two{
+    flex-shrink:100;
+}
