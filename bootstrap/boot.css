@@ -1,0 +1,34 @@
+
+#main-head{
+    height: 700px;
+    background-image:url(https://www.macromedia-fachhochschule.de/wp-content/uploads/2021/04/210413-macromedia-hochschule-module-games-a-1620x912-se-990x557.jpg);
+    background-size: cover;
+}
+.page-section{
+    padding: 6rem 0rem;
+
+}
+
+.section-heading{
+
+    font-weight: bold;
+    margin-bottom: 1rem;
+
+}
+
+.section-subheading{
+    margin-bottom: 6rem;
+}
+.headd{
+    background-color: rgb(152, 212, 219);
+}
+
+#play{
+
+    padding-top: 70px;
+    padding-bottom: -100px;
+}
+
+#boxx{
+    height: 400px;
+}
