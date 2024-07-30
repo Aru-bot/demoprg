@@ -1,0 +1,89 @@
+html, body{
+    min-height: 100vh;
+
+}
+
+body{
+    
+    display: flex;
+    flex-direction: column;
+    border-radius: 0%;
+
+}
+
+
+.main-box{
+    margin-left: 34%;
+    margin-top: 10px;
+    width:450px;
+    box-shadow:  1px 1px 5px 2px #cccccc, 1px 1px 5px -1px #cccccc;
+    border-radius: 5px;
+    /*border-style:solid;
+    border-radius: 5px;
+    border-width: 1px;*/
+
+}
+
+.main-box ul{
+    font-size: 100%;
+
+   
+}
+
+.pull-right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; /*used to take element to the end*/
+    flex-direction: row;
+    margin-top: -41px;
+}
+.main-box ul{
+    font-size: 100%;
+}
+
+footer{
+    margin-top: 20px;
+    flex-shrink: 0;
+    padding: 20px 0 20px 0;
+    color:#ffffff;
+    background-color: rgba(34,39,39,0.9);
+    font-size: 1.15em;
+}
+.fa-heart{
+    color: blueviolet;
+}
+
+.box{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #ebebeb ;
+  font-size: 500%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid #585858;
+}
+
+#alert-box{
+    display: block; /* Ensure it is not set to none */
+    /* Other styling */
+}
+
+/*slideUp{
+    display: none;
+}
+slideDown{
+    display: none;
+}
+
+#alert-box {
+    background: #f8d7da;
+    padding: 15px;
+    border-radius: 4px;
+    max-height: 0; 
+    overflow: hidden; 
+    transition: max-height 0.5s ease-out; 
+}
+
+#alert-box.show {
+    max-height: 100px; 
+}
