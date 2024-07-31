@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+
+    <link rel="stylesheet" href="todo.css">
+
+   
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent Marker" >
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Query/2.2.4/jquery.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/15/bootstrap.min.js"></script> 
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="intro col-12">
+                <h1>Things to do</h1>
+            </div>
+            <div class="border1">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p id="first"> ENTER THE TEXT IN THE INPUT FIELD TO ADD YOUR ITEMS IN THE LIST</p>
+                <p id="second">Click on the item to mark it as complete</p>
+                <p id="third">Click the 'x' to remove items</p>
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input id="userInput" type="text" placeholder="ENTER NEW ITEM" maxlength="50"> <!--maxlength is the length of the input item length-->
+                <button id="enter"> <i class="fa fa-pencil" aria-hidden="true"></i> </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="listItems col-12">
+                <ul class=" col-12 offset-0 col-sm-8 offset-sm-2">
+              
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center fixed-bottom">Designed <i class="fa fa-code"></i> with <i class="fa fa-heart">  by <b>Arundhati Singh</b></i></footer>  
+
+    <script type="text/javascript" src="todo.js"></script>
+   
+</body>
+</html>
